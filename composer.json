@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
+        "ext-gd": "*",
 
         "symfony/debug": "v3.4.18",
         "devfactory/minify": "1.0.7",
@@ -35,8 +36,7 @@
         "doctrine/dbal": "v2.5.13",
         "egulias/email-validator": "2.1.10",
         "symfony/console": "v3.4.31",
-        "javoscript/laravel-macroable-models": "1.0.4",
-        "php-gd": "*"
+        "javoscript/laravel-macroable-models": "1.0.4"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "v3.2.0",
